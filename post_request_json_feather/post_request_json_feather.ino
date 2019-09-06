@@ -106,7 +106,7 @@ void httpGetRequest() {
     Serial.println("connected to server");
     // Make a HTTP request:
     client.println("GET / HTTP/1.1");
-    client.println("Host: zdlin.pythonanywhere.com");
+    client.println("Host: ");
     client.println("Connection: close");
     client.println();
   }
